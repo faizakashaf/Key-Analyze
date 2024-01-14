@@ -1,0 +1,26 @@
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+transform: translate(-50%,-50%);
+width: 80%;
+height: 100px;
+}
+.key{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(210, 30, 81);
+}
+table{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #bdb8b8;
+    text-align: center;
+    padding: 12px; 
+    font-size: 1.3rem;
+}
